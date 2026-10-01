@@ -1,0 +1,34 @@
+﻿name: intelliguide
+description: AI-powered obstacle detection and navigation for visually impaired users.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+9
+  flutter_tts: ^4.0.2
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+  geolocator: ^12.0.0
+  vibration: ^2.0.0
+  http: ^1.2.0
+  audioplayers: ^6.0.0
+  shared_preferences: ^2.2.3
+  path_provider: ^2.1.2
+  # Local on-device inference
+  tflite_flutter: ^0.12.1
+  image: ^4.1.7
+  geocoding: ^4.0.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
